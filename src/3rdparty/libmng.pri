@@ -1,5 +1,4 @@
 DEFINES += MNG_BUILD_SO
-DEFINES += MNG_NO_INCLUDE_JNG
 INCLUDEPATH += $$PWD/libmng
 SOURCES += \
     $$PWD/libmng/libmng_callback_xs.c \
@@ -23,3 +22,4 @@ SOURCES += \
     $$PWD/libmng/libmng_zlib.c
 
 include($$PWD/zlib_dependency.pri)
+include($$PWD/jpeg_dependency.pri)
